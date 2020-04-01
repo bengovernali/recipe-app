@@ -7,12 +7,32 @@
 }
 
 .Nav {
-  background-color: #000000;
+  background-color: #4a4a4a;
   min-height: 10vh;
   color: white;
+  position: relative;
+  margin-bottom: 10vh;
 }
 
 .title {
   font-style: italic;
   margin: 0;
+}
+
+.tile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.tile {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #4a4a4a;
+  border-radius: 5px;
+  background-color: #4a4a4a;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
 }
