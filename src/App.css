@@ -19,14 +19,14 @@
   margin: 0;
 }
 
-.tile-grid {
+.card-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: space-around;
 }
 
-.tile {
+.card {
   width: 200px;
   height: 200px;
   border: 1px solid #4a4a4a;
@@ -35,4 +35,9 @@
   opacity: 0.9;
   text-align: center;
   color: white;
+  margin: 2.5% 2.5%;
+}
+
+.card:hover {
+  box-shadow: 2.5px 2.5px 5px 5px grey;
 }
