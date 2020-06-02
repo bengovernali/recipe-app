@@ -6,7 +6,7 @@ class Navbar extends Component {
       <div>
           <nav className="navbar" role="navigation" aria-label="main-navigation">
               <div className="navbar-brand">
-                  <h1 className="navbar-item">Recipe App</h1>
+                  <h1 className="navbar-item">Recipe Roulette</h1>
               </div>
           </nav>
       </div>

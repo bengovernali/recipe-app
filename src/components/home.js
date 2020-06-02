@@ -1,25 +1,26 @@
 import React, { Component } from "react";
 
+import Card from "./card";
+
 class Home extends Component {
   render() {
     return (
-      <div className="card-grid">
-        <div className="card">
-          <a href="/random">
-            <h3>Random Recipe</h3>
-          </a>
+      <section className="section">
+        <div className="container">
+          <div className="tile is-ancestor">
+            <div className="tile">
+              <div className="tile is-child box">
+                <p className="title">Random Recipe</p>
+              </div>
+            </div>
+            <div className="tile">
+              <div className="tile is-child box">
+                <p className="title">Cuisines</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="card">
-          <a href="/random-by-cuisine">
-            <h3>Random by Cuisine</h3>
-          </a>
-        </div>
-        <div className="card">
-          <a href="/cuisines">
-            <h3>Cuisines</h3>
-          </a>
-        </div>
-      </div>
+      </section>
     );
   }
 }

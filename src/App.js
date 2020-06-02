@@ -12,11 +12,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
-        <Route path="/" exact component={Home} />
-        <Route path="/random" component={RandomRecipe} />
-        <Route path="randomByCuisine" component={RandomByCuisine} />
-        <Route path="cuisines" component={Cuisines} />
+        <div className="body">
+          <Navbar />
+          <Route path="/" exact component={Home} />
+          <Route path="/random" component={RandomRecipe} />
+          <Route path="randomByCuisine" component={RandomByCuisine} />
+          <Route path="cuisines" component={Cuisines} />
+        </div>
       </div>
     </Router>
   );
