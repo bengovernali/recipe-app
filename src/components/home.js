@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import Card from "./card";
-
 class Home extends Component {
   render() {
     return (
@@ -17,7 +15,9 @@ class Home extends Component {
               </div>
               <div className="tile is-parent">
                 <div className="tile is-child box">
-                <p className="title">Cuisines</p>
+                  <a href="/cusines">
+                    <p className="title">Cuisines</p>
+                  </a>
                 </div>
               </div>
           </div>
