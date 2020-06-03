@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import questionMark from '../images/questionmark.png'
+
 class Home extends Component {
   render() {
     return (
@@ -7,16 +9,19 @@ class Home extends Component {
         <div className="container">
           <div className="tile is-ancestor">
               <div className="tile is-parent">
-                <div className="tile is-child box">
+                <div className="tile is-child box has-background-primary has-text-centered">
+                  <figure class="image is-128x128 is-inline-block" >
+                    <img src={questionMark} alt="question mark" />
+                  </figure>
                   <a href="/random">
-                    <p className="title">Random Recipe</p>
+                    <p className="title has-text-light has-text-centered">Random Recipe</p>
                   </a>
                 </div>
               </div>
               <div className="tile is-parent">
-                <div className="tile is-child box">
+                <div className="tile is-child box has-background-primary">
                   <a href="/cusines">
-                    <p className="title">Cuisines</p>
+                    <p className="title has-text-light has-text-centered">Cuisines</p>
                   </a>
                 </div>
               </div>
