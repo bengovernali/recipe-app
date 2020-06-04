@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import questionMark from '../images/questionmark.png'
+import questionMark from '../images/questionmark.png';
+import ramen from '../images/ramen.png';
 
 class Home extends Component {
   render() {
@@ -10,7 +11,7 @@ class Home extends Component {
           <div className="tile is-ancestor">
               <div className="tile is-parent">
                 <div className="tile is-child box has-background-primary has-text-centered">
-                  <figure class="image is-128x128 is-inline-block" >
+                  <figure class="image is-96x96 is-inline-block" >
                     <img src={questionMark} alt="question mark" />
                   </figure>
                   <a href="/random">
@@ -19,8 +20,11 @@ class Home extends Component {
                 </div>
               </div>
               <div className="tile is-parent">
-                <div className="tile is-child box has-background-primary">
-                  <a href="/cusines">
+                <div className="tile is-child box has-background-primary has-text-centered">
+                  <figure class="image is-96x96 is-inline-block" >
+                    <img src={ramen} alt="ramen" />
+                  </figure>
+                  <a href="/random">
                     <p className="title has-text-light has-text-centered">Cuisines</p>
                   </a>
                 </div>
