@@ -10,25 +10,24 @@ class Home extends Component {
         <div className="container">
           <div className="tile is-ancestor">
               <div className="tile is-parent">
-                <a href="/random">
                   <div className="tile is-child box has-background-primary has-text-centered">
-                    <figure class="image is-96x96 is-inline-block" >
-                      <img src={questionMark} alt="question mark" />
-                    </figure>
+                    <a href="/random"> 
+                      <figure class="image is-96x96 is-inline-block" >
+                        <img src={questionMark} alt="question mark" />
+                      </figure>
                       <p className="title has-text-light has-text-centered">Random Recipe</p>
+                    </a>
                   </div>
-                </a>
               </div>
               <div className="tile is-parent">
-                <a href="/cuisines">
                   <div className="tile is-child box has-background-primary has-text-centered">
-                    <figure class="image is-96x96 is-inline-block" >
-                      <img src={ramen} alt="ramen" />
-                    </figure>
-                    <p className="title has-text-light has-text-centered">Cuisines</p>
+                    <a href="/cuisines">
+                      <figure class="image is-96x96 is-inline-block" >
+                        <img src={ramen} alt="ramen" />
+                      </figure>
+                      <p className="title has-text-light has-text-centered">Cuisines</p>
+                    </a>
                 </div>
-                </a>
-                
               </div>
           </div>
         </div>
