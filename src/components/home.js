@@ -12,7 +12,7 @@ class Home extends Component {
               <div className="tile is-parent">
                   <div className="tile is-child box has-background-primary has-text-centered">
                     <a href="/random"> 
-                      <figure class="image is-96x96 is-inline-block" >
+                      <figure className="image is-96x96 is-inline-block" >
                         <img src={questionMark} alt="question mark" />
                       </figure>
                       <p className="title has-text-light has-text-centered">Random Recipe</p>
@@ -22,7 +22,7 @@ class Home extends Component {
               <div className="tile is-parent">
                   <div className="tile is-child box has-background-primary has-text-centered">
                     <a href="/cuisines">
-                      <figure class="image is-96x96 is-inline-block" >
+                      <figure className="image is-96x96 is-inline-block" >
                         <img src={ramen} alt="ramen" />
                       </figure>
                       <p className="title has-text-light has-text-centered">Cuisines</p>
