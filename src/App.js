@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from "./components/home";
 import RandomRecipe from "./components/randomRecipe";
-import RandomByCuisine from "./components/randomByCuisine";
 import Cuisines from "./components/cuisines";
 import Navbar from "./components/navbar";
+import Cuisine from "./components/cuisine";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
           <Navbar />
           <Route path="/" exact component={Home} />
           <Route path="/random" component={RandomRecipe} />
-          <Route path="randomByCuisine" component={RandomByCuisine} />
-          <Route path="cuisines" component={Cuisines} />
+          <Route path="/cuisines" component={Cuisines} />
+          <Route path="/cuisine" component={Cuisine} />
         </div>
       </div>
     </Router>
